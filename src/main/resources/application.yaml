@@ -1,0 +1,9 @@
+spring:
+    application:
+        name: sns-demo
+
+aws:
+    accessKeyId: ${Access_Key_Id:***}
+    secretAccessKey: ${Secret_Key:***}
+    region: ${Region:ap-northeast-1}
+    topicArn: $(Topic_ARN:***)
