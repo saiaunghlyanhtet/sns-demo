@@ -25,7 +25,7 @@ public class SnsService {
                 .credentialsProvider(StaticCredentialsProvider.create(
                         AwsBasicCredentials.create(accessKeyId, secretAccessKey)))
                 .build();
-        this.topicArn = "arn:aws:sns:ap-northeast-1:736405529708:Lashic";
+        this.topicArn = "";
     }
 
     public String sendSms(String phoneNumber, String message) {
